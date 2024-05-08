@@ -1,0 +1,376 @@
+
+.headereldenring{
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
+      url(/Assets/EldenRing/eldenbanner.jpg) center bottom no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center; 
+  
+}
+
+.btn-1{
+display: inline-block;
+padding: 11px 35px;
+background-color: #CE9678;
+color: #F9FAFC;
+text-transform: uppercase;
+}
+
+
+.btn-1:hover{
+  background-color: #ebad8d;
+}
+
+.Trailer {
+padding: 100px;
+background-color: #E1E2E6;
+position: relative;
+}
+
+.Trailer-content {
+text-align: center;
+}
+.Trailer-content h2 {
+font-size: 55px;
+line-height: 70px;
+color: #323337;
+text-transform: uppercase;
+padding: 0 250px;
+margin-bottom: 15px;
+}
+
+.txt-p {
+font-size: 16px;
+color: #414247;
+padding: 0 250px;
+}
+
+.Trailer-group{
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+
+.Trailer-1 img{
+width: 200px;
+}
+
+.Trailer-img{
+position: absolute;
+top: 0;
+right: 0;
+}
+
+.Trailer-1 h3 {
+color: #323337;
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+.Lore{
+background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
+    url(/Assets/EldenRing/fons.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /*Efecto de imagen fija, no se mueve al bajar*/
+    padding: 100px 0;
+}
+
+.Lore-content {
+text-align: center;
+}
+.Lore-content h2 {
+font-size: 55px;
+line-height: 70px;
+color: #F9FAFC;
+text-transform: uppercase;
+margin-bottom: 50px;
+
+}
+
+.Lore-content p{
+font-size: 16px;
+color: #C5C5C5;
+margin-bottom: 50px;
+padding: 0 100px;
+text-align: left;
+}
+
+.Lore-group{
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+
+.Lore-1 {
+padding: 0 100px;
+}
+
+.Lore-1 img{
+width: 25px;
+margin-bottom: 15px;
+}
+
+.Lore-1 h3{
+color: #EACCB3;
+font-size: 18 px;
+}
+
+.Peleas {
+display: flex;
+}
+
+.Peleas-1 {
+width: 50%;
+padding: 100px 250px 100px 100px; /*100 pixeles hacia arriba, 250 hacia derecha, 100 hacia abajo y 100 hacia izquierda*/
+background-color: #E1E2E6;
+}
+
+.Peleas-2 {
+background-image: url(/Assets/EldenRing/caballo.webp);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+}
+
+.Peleas-3 {
+background-image: url(/Assets/EldenRing/pelea.jpeg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+}
+
+h2{
+font-size: 55px;
+line-height: 70px;
+color: #323337;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+p{
+font-size: 16px;
+color: #414247;
+margin: 25px 0 45px 0;
+}
+
+.Personajes{
+padding: 100px 0;
+text-align: center;
+}
+
+.Personajes-content {
+display: flex;
+justify-content: space-between;
+}
+
+.Personajes-1 {
+padding: 15px 55px;
+}
+
+.Personajes-1 img {
+width: 250px;
+border-radius: 15px;
+margin-bottom: 15px;
+}
+
+.Personajes-1 h3{
+font-size: 25px;
+color: #323337
+}
+
+.Mapa {
+  padding: 100px;
+  background-color: #E1E2E6;
+  position: relative;
+  }
+  /*Texto dentro de la seccion*/ 
+  .Mapa-content {
+  text-align: left;
+  }
+  .Mapa-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 15px;
+
+  }
+
+  .Mapa-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    }
+  
+    .Mapa-1 img{
+    width: 200px;
+    }
+    
+    .Mapa-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    }
+    
+    .Mapa-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+    }
+
+    @media(max-width:992px){
+      .menu{
+        padding: 30px;
+      }
+    
+      .menu label {
+        display: initial;
+      }
+    
+      .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+      }
+    
+      .menu .navbar ul li {
+        width: 100%;
+      }
+    
+      #menu:checked ~ ,.navbar {
+        display: initial;
+      }
+      
+      .headereldenring{
+        min-height: 0vh;
+      }
+    
+      .headereldenring-content p {
+        padding: 0;
+      }
+    
+      .Trailer {
+        padding: 30px;
+      }
+    
+      .Trailer-content h2 {
+        padding: 0;
+      }
+    
+      .txt-p {
+        padding: 0;
+      }
+    
+      .Trailer-group {
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+    .Trailer-img{
+      display: none;
+    }
+    
+    .Lore {
+      padding: 30px;
+    }
+    
+    .Lore-content p {
+      padding: 0;
+    }
+    
+    .Lore-group {
+      flex-direction: column;
+      margin-bottom: 0;;
+    }
+    
+    .Lore-1 {
+      margin-bottom: 25px;
+    }
+    
+    .Peleas {
+      flex-direction: column;
+    }
+    
+    .Peleas-1 {
+      width: 100%;
+      padding: 30px;
+      text-align: center;
+    }
+    
+    .Peleas-2, .Peleas-3 {
+      display: none;
+    }
+    
+    .Personajes container {
+      padding: 30px;
+    }
+    
+    .Personajes-content {
+      flex-direction: column;
+    }
+    
+    .Personajes-content {
+      flex-direction: column;
+    }
+    
+    .Personajes-1 {
+      padding: 0;
+    }
+    
+    .footer {
+      padding: 30px;
+    }
+    
+    .footer-content {
+      flex-direction: column;
+      text-align: centrer;
+    }
+    
+    }
+    
+    @media screen and (max-width: 768px) {
+      .Trailer-group {
+          flex-direction: column;
+      }
+    
+      .Trailer-1 {
+          flex-basis: 100%;
+          margin-bottom: 50px;
+      }
+    
+      .Lore-group {
+          flex-direction: column;
+      }
+    
+      .Lore-1 {
+          flex-basis: 100%;
+          margin-bottom: 50px;
+      }
+    }
+    
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+

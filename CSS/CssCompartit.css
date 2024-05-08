@@ -1,0 +1,156 @@
+/*Import de google fonts, para tener una fuente de letra más bonita*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.opaque-background {
+  background-color: rgba(255, 255, 255, 0.5); /* Color blanco con un 50% de opacidad */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+  border-radius: 5px; /* Añade bordes redondeados si deseas */
+}
+.container {
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7));
+    background-size: cover;
+    min-height: 60px;
+    display: flex;
+    align-items: center; 
+  
+}
+
+.menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  color: #d44d09;
+  font-size: 25px;
+  font-weight: 800;
+  
+}
+
+.menu .navbar ul li{
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #cf581d;
+  display: block;
+  font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+  color: #CE9678;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+
+
+/*Titulo del header*/
+.header-content h1{
+  font-size: 75px;
+  line-height:80px;
+  color: #F9FAFC;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+/*Subtitulo del header*/
+.header-content p{
+  font-size: 16px;
+  color: #C5C5C5C5;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+
+.LoreElden{
+  text-align: left;
+}
+
+
+@media(max-width:575.98px) {
+  /* Estilos para dispositivos extra pequeños (XS) - Pantallas menores a 576px */
+}
+
+@media(min-width:576px) {
+  /* Estilos para dispositivos pequeños (SM) - Pantallas de 576px o más */
+}
+
+@media(min-width:768px) {
+  /* Estilos para dispositivos medianos (MD) - Pantallas de 768px o más */
+}
+
+@media(min-width:992px) {
+  /* Estilos para dispositivos grandes (LG) - Pantallas de 992px o más */
+}
+
+@media(min-width:1200px) {
+  /* Estilos para dispositivos extra grandes (XL) - Pantallas de 1200px o más */
+}
+
+@media(min-width:1400px) {
+  /* Estilos para dispositivos extra extra grandes (XXL) - Pantallas de 1400px o más */
+}
+
+ /*footer*/
+ .col_white_amrc { color:#FFF;}
+ footer { width:100%; background-color:#000000; min-height:250px; padding:10px 0px 25px 0px ;}
+ .pt2 { padding-top:40px ; margin-bottom:20px ;}
+ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+ .mb10 { padding-bottom:15px ;}
+ .footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+ .footer_ul_amrc li {padding:0px 0px 5px 0px;}
+ .footer_ul_amrc li a{ color:#CCC;}
+ .footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+ .fleft { float:left;}
+ .padding-right { padding-right:10px; }
+ 
+ .footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+ .footer_ul2_amrc li p { display:table; }
+ .footer_ul2_amrc li a:hover { text-decoration:none;}
+ .footer_ul2_amrc li i { margin-top:5px;}
+ 
+ .bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+ .foote_bottom_ul_amrc {
+   list-style-type:none;
+   padding:0px;
+   display:table;
+   margin-top: 10px;
+   margin-right: auto;
+   margin-bottom: 10px;
+   margin-left: auto;
+ }
+ .foote_bottom_ul_amrc li { display:inline;}
+ .foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+ 
+ .social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+ .social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+ .social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+ .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
